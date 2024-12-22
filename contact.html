@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebieth Leyn - Contact Me</title>
+    <link rel="icon" href="img/logo2.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      /* Colors */
+      :root {
+        --light-primary: #f0f5fe;
+        --light-secondary: #d0e0fe;
+        --accent-primary: #5eacf5;
+        --text-secondary: #857e8e;
+      }
+
+      body {
+        background-color: var(--light-primary);
+        color: var(--text-secondary);
+      }
+
+      .navbar {
+        background-color: var(--accent-primary);
+      }
+
+      .navbar .nav-link {
+        color: var(--light-primary) !important;
+      }
+
+      .navbar .nav-link:hover {
+        text-decoration: underline;
+      }
+
+      .contact-section {
+        background-color: var(--light-secondary);
+        padding: 4rem 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-title {
+        color: var(--accent-primary);
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .form-control:focus {
+        border-color: var(--accent-primary);
+        box-shadow: 0 0 5px var(--accent-primary);
+      }
+
+      .btn-submit {
+        background-color: var(--accent-primary);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        transition: all 0.3s ease;
+      }
+
+      .btn-submit:hover {
+        background-color: #498ec5;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      footer {
+        background-color: var(--light-secondary);
+        color: var(--text-secondary);
+      }
+
+      footer a {
+        color: var(--text-secondary) !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      footer a:hover {
+        color: var(--accent-primary) !important;
+      }
+      .xx {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg px-4 shadow fixed-top">
+      <a class="navbar-brand" href="index.html"
+        ><img src="img/logo.png" width="100px" alt="Ebieth Leyn"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section container xx">
+      <h1 class="contact-title">Get In Touch</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact Info</h4>
+          <p><strong>Name:</strong> Ebieth Leyn</p>
+          <p><strong>Address:</strong> Jakarta, Indonesia</p>
+          <p><strong>Phone:</strong> +62 8211-1835-9550</p>
+          <p><strong>Email:</strong> ebiethslank763@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <form action="https://formspree.io/f/{your_form_id}" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 mt-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <span
+          >&copy;
+          <a
+            href="https://www.instagram.com/ebieth_slank/profilecard/?igsh=MXY1aDdyY2FvNW5jag=="
+            >Ebieth Leyn</a
+          ></span
+        >
+        <div>
+          <a
+            href="https://www.instagram.com/ebieth_slank/profilecard/?igsh=MXY1aDdyY2FvNW5jag=="
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href=" https://www.facebook.com/ebiet.leyn"
+            aria-label="Facebook"
+            class="ms-3"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ebieth-leyn-57376320a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            aria-label="LinkedIn"
+            class="ms-3"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://x.com/EbiethLeyn?s=09"
+            aria-label="X (Twitter)"
+            class="ms-3"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a
+            href="https://www.tiktok.com/@ebieth_leyn?_t=8sQT5YM9I4f&_r=1"
+            aria-label="TikTok"
+            class="ms-3"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  </body>
+</html>

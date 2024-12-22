@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Ebieth Leyn</title>
+    <link rel="icon" href="img/logo2.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      /* Colors */
+      :root {
+        --light-primary: #f0f5fe;
+        --light-secondary: #d0e0fe;
+        --accent-primary: #5eacf5;
+        --text-secondary: #857e8e;
+      }
+
+      body {
+        background-color: var(--light-primary);
+        color: var(--text-secondary);
+      }
+
+      .navbar {
+        background-color: var(--accent-primary);
+      }
+
+      .navbar .nav-link {
+        color: var(--light-primary) !important;
+      }
+
+      .navbar .nav-link:hover {
+        text-decoration: underline;
+      }
+
+      .about-section {
+        background-color: var(--light-secondary);
+        padding: 4rem 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .about-title {
+        color: var(--accent-primary);
+      }
+
+      .about-photo {
+        width: 100%;
+        height: auto;
+        border-radius: 0; /* Hilangkan sudut */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+      }
+
+      footer {
+        background-color: var(--light-secondary);
+        color: var(--text-secondary);
+      }
+
+      footer a {
+        color: var(--text-secondary) !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      footer a:hover {
+        color: var(--accent-primary) !important;
+      }
+      .xx {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg px-4 shadow fixed-top">
+      <a class="navbar-brand" href="index.html"
+        ><img src="img/logo.png" width="100px" alt="Ebieth Leyn"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section container xx">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img
+            src="img/bernese-mountain-dog-4516480_960_720.jpg"
+            alt="Your Photo"
+            class="about-photo"
+          />
+        </div>
+        <div class="col-md-6 mt-4">
+          <h1 class="about-title">About Me</h1>
+          <p class="mt-4">
+            <strong>Rottweiler: History, Origin, and Characteristics</strong>
+            <br />
+            The Rottweiler is one of the oldest dog breeds known to humans. This
+            breed has a long history rooted in the era of the Roman Empire.
+            During that time, Rottweilers were used as versatile working dogs,
+            primarily for herding livestock and guarding property. These dogs
+            accompanied Roman legions on their long journeys, helping to secure
+            food supplies by herding the cattle that were brought along. The
+            name "Rottweiler" comes from the town of Rottweil in Germany, where
+            the breed developed after the fall of the Roman Empire. They were
+            known as "Rottweiler Metzgerhund," or "butcher’s dogs of Rottweil."
+            These dogs were highly valued by butchers for their ability to
+            efficiently herd livestock and protect goods from thieves. In the
+            19th century, with the rise of railway transportation replacing the
+            need for herding livestock, the Rottweiler population drastically
+            declined. However, their versatility as guard dogs and working dogs
+            ensured the survival of the breed. They began to be used for other
+            roles, including as police dogs, military dogs, and even rescue
+            dogs. Physical Characteristics Rottweilers have a strong,
+            well-proportioned, and muscular build. They have short, dense, and
+            glossy coats that are predominantly black with distinctive tan
+            markings on their face, chest, and legs. Their large, robust
+            physique exudes strength and authority. Male Rottweilers typically
+            stand around 61-69 cm tall, while females are slightly smaller,
+            measuring 56-63 cm in height. Temperament and Personality
+            Rottweilers are known for their loyalty, affection, and strong
+            protective instincts toward their families. They are an intelligent
+            and trainable breed, making them suitable for various roles,
+            including guard dogs, therapy dogs, or simply as family companions.
+            Despite their protective nature, Rottweilers can also be very
+            friendly and gentle, especially when trained and socialized from an
+            early age.
+          </p>
+          <p>
+            When I'm not coding, I enjoy photography, exploring new
+            technologies, and writing blogs about web development. Feel free to
+            explore my portfolio and reach out if you'd like to collaborate!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 mt-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <span
+          >&copy;
+          <a
+            href="https://www.instagram.com/ebieth_slank/profilecard/?igsh=MXY1aDdyY2FvNW5jag=="
+            >Ebieth Leyn</a
+          ></span
+        >
+        <div>
+          <a
+            href="https://www.instagram.com/ebieth_slank/profilecard/?igsh=MXY1aDdyY2FvNW5jag=="
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ebiet.leyn"
+            aria-label="Facebook"
+            class="ms-3"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ebieth-leyn-57376320a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            aria-label="LinkedIn"
+            class="ms-3"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://x.com/EbiethLeyn?s=09"
+            aria-label="X (Twitter)"
+            class="ms-3"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a
+            href="https://www.tiktok.com/@ebieth_leyn?_t=8sQT5YM9I4f&_r=1"
+            aria-label="TikTok"
+            class="ms-3"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  </body>
+</html>
